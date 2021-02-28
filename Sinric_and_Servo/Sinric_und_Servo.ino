@@ -10,9 +10,9 @@
 #include "SinricProSwitch.h"
 #include <Servo.h>
 
-#define APP_KEY           "4733d0f7-0ed4-4d44-a414-1c55e9ecabaa"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "efe58dd5-d701-4bcd-be65-5a68f41d9cff-b9bcb344-8763-4623-83a4-47fde7777c7c"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define SWITCH_ID         "602bec4ae63687229a387eb1"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define APP_KEY           ""      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        ""   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define SWITCH_ID         ""    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 #define BAUD_RATE         115200                // Change baudrate to your need
 
 Servo servoObject;
